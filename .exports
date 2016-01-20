@@ -1,0 +1,8 @@
+# Make macvim the default editor
+export EDITOR='macvim'
+
+# Make Python use UTF-8 encoding for output to stdin, stdout, and stderr.
+export PYTHONIOENCODING='UTF-8';
+
+# Cerberus path
+export CERB_PATH=$CERB_PATH
