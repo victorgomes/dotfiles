@@ -109,7 +109,7 @@ defaults write com.apple.DiskUtility advanced-image-options -bool true
 
 # Use `~/Documents/Torrents` to store incomplete downloads
 defaults write org.m0k.transmission UseIncompleteDownloadFolder -bool true
-defaults write org.m0k.transmission IncompleteDownloadFolder -string "${HOME}/Documents/Torrents"
+defaults write org.m0k.transmission IncompleteDownloadFolder -string "${HOME}/Downloads/Torrents"
 
 # Don’t prompt for confirmation before downloading
 defaults write org.m0k.transmission DownloadAsk -bool false
