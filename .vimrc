@@ -43,8 +43,13 @@ syntax on
 set cursorline
 " Make tabs as wide as two spaces
 set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+" Make tabs as spaces
+set expandtab
 " Show “invisible” characters
 set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
+" Display whitespace
 set list
 " Highlight searches
 set hlsearch
@@ -99,3 +104,7 @@ if has("autocmd")
 	" Treat .md files as Markdown
 	autocmd BufNewFile,BufRead *.md setlocal filetype=markdown
 endif
+
+" Automatic identation
+set autoindent
+set cindent
